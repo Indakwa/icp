@@ -3,11 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 0.5s ease;
 }
 
 body {
   background-color: #084b3e;
   font-family: "Montserrat", sans-serif;
+  color: #edf6f4;
+  height: 100vh;
 }
 
 header {
@@ -31,4 +34,46 @@ header nav a {
   display: block;
   text-decoration: none;
   color: #edf6f4;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 208, 0);
+  margin-top: 10rem;
+}
+.container .inner-container {
+  border: 2px solid rgb(222, 222, 222);
+}
+.container .inner-container h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+.container .inner-container .txtDiv .txt {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+.container .inner-container .btn {
+  letter-spacing: 1.3px;
+  margin: 0 auto;
+  display: block;
+  width: 20%;
+  padding: 1rem;
+  border: 2px solid #edf6f4;
+  color: #edf6f4;
+  text-decoration: none;
+  margin-top: 2rem;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+.container .inner-container .btn:hover {
+  transform: scale(0.96);
+}
+.container .inner-container .btn2 {
+  background: #88dd92;
+  border: none;
+  color: #001410;
 }/*# sourceMappingURL=styles.css.map */

@@ -12,11 +12,14 @@ $mont: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: .5s ease;
 }
 
 body{
     background-color: #084b3e;
     font-family: $mont;
+    color: $whi;
+    height: 100vh;
 }
 
 header{
@@ -42,6 +45,57 @@ header{
             display: block;
             text-decoration: none;
             color: $whi;
+        }
+    }
+}
+
+.container{    
+    width: 80vw;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 208, 0);
+    margin-top: 10rem;
+
+    .inner-container{
+        border: 2px solid rgb(222, 222, 222);
+        
+            
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        .txtDiv{
+            .txt{
+                width: 50%;
+                margin: 0 auto;
+                text-align: justify;
+                font-size: .9rem;
+            }
+        }
+
+        .btn{
+            letter-spacing: 1.3px;
+            margin: 0 auto;
+            display: block;
+            width: 20%;
+            padding: 1rem;
+            border: 2px solid $whi;
+            color: $whi;
+            text-decoration: none;
+            margin-top: 2rem;
+            border-radius: 30px;
+            text-align: center;
+            font-weight: 600;
+
+            &:hover{
+                transform: scale(.96);
+            }
+        }
+
+        .btn2{
+            background: $green2;
+            border: none;
+            color: $bla;
         }
     }
 }
